@@ -1,4 +1,4 @@
-package org.ab.bigquery;
+package org.ab.bigquery.nonbreaking;
 
 import com.google.cloud.bigquery.BigQuery;
 import com.google.cloud.bigquery.ExternalTableDefinition;
@@ -12,7 +12,7 @@ import java.util.Objects;
 
 @Builder
 @Log4j
-public class UpdateExternalTableCommand implements Runnable{
+public class UpdateLocationOfExternalTableCommand implements Runnable{
 
     private final BigQuery bigquery;
 
